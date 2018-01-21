@@ -1,0 +1,57 @@
+<html><head>
+<title>SIGN UP</title>
+<link rel="icon" type="image/png" href="opb.png" />
+<style>
+body{background:black;
+background-image: url("connect1.jpg");
+background-repeat:no-repeat;
+background-position: right top;
+margin-right: 200px;
+background-attachment: fixed;
+color:white;
+font-family:lucida handwriting;
+font-size:30px;
+font-style:italic;}
+input
+{
+padding:5px;  
+background:white;
+border:2px solid black;
+border-radius:10px;
+font-size:22px;
+font style:italic;
+height:35px;
+width:250px;
+}
+#c
+{
+padding:5px; 
+border:5px solid black; 
+background:red;
+border-radius:10px;
+font-size:22px;
+font style:italic;
+height:50px;
+width:200px;
+}
+#c:hover{background:white;border-color:white;}
+#p{border:8px solid white;margin-right:300px;margin-left:300px;}
+</style></head>
+<body>
+<center><div id="p"><b>ONLINE PHONE BOOK REGISTRATION</b></div></center><br>
+<b>REGISTER NOW !</b><br><br><br>
+<form action="connect.php" method="post">
+First Name : <input type=text name="name" placeholder="Name" /><br><br>
+Last Name : <input type=text name="lname" /><br><br>
+E-mail address<sup>*</sup> : <input type="email" name="mail" maxlength=80px required /><br><br>
+User Name<sup>*</sup> : <input type=text name="uname" required /><br><br>
+Password<sup>*</sup> : <input type=password name="pass" required /><br><br>
+Re enter your password<sup>*</sup> :<input type=password name="pass1" required /><br><br>
+If password forgoten,<br>
+Recovery question<sup>*</sup> :<input type=text name="ques" required /><br><br>
+Answer<sup>*</sup> : <input type=text name="ans" required /><br><br>
+<input type=checkbox checked required /><div font-size=5px>I agree the terms!</div><br>
+<input id="c" type=reset value=CLEAR /><input id="c" type=submit value="SIGN IN" />
+</form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>OPB</title>
+<link rel="icon" type="image/png" href="opb.png" />
+<style>
+body{background-color:black;color:white;font-family:lucida handwriting;font-size:30px;font-style:italic;}
+pre{font-size:30px;font-style:italic;}
+a{font-size:20px;color:red;text-decoration:none;}
+a:hover{font-size:23px;color:white;}
+#bt
+{
+padding:5px;
+border:8px solid red; 
+background:red;
+border-radius:12px;
+font-size:40px;
+font style:italic;
+height:80px;
+width:300px;
+}
+#c
+{
+padding:5px; 
+border:8px solid white; 
+background:white;
+border-radius:10px;
+font-size:22px;
+font style:italic;
+height:50px;
+width:200px;
+}
+#bt:hover{background:white;border-color:white;}
+#b{padding:5px; 
+border:8px solid white; 
+background:white;
+border-radius:12px;
+font-size:40px;
+font style:italic;
+height:80px;
+width:300px;}
+.head{background:white;color:black;border:8px solid white;border-left:20px solid red;align:center;font-family:lucida handwriting;font-size:60px;}
+</style>
+<script>
+function info()
+{
+alert("Project done by\n\nSAASHWATH.C.A  (1531048)\n\nThanks for the opportunity.");
+}
+</script>
+<body>
+<p align=center class="head">Connection Maker</p>
+<img src="c.png" align= right width=248px height=248px/>
+<form action="login.php" method="post">
+<table>
+<tr><td><pre>USER NAME :</pre><td><p>&emsp;&emsp;&emsp;&emsp;&emsp;</p><td><pre>PASSWORD :</pre><td><td></tr>
+<tr><td><input id="bt" type="text" name="name" placeholder="name" />
+<td><p>&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+<td><input id="bt" name="pass" type="password" />
+<td><p>&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+<td><input id="b" type="submit" value="LOGIN" /></tr>
+</table>
+</form>
+<img src="connect.jpg" />
+<a href="forgot.html">I forgot my password</a>
+<div align=right><button id="c" onclick="info()">ABOUT</button></div>
+<form action="signup.html">If not registed....<input id="c" type=submit value="SIGN UP" /></form>
+</body>
+</html>
